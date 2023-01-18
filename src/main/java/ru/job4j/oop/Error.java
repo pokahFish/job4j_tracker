@@ -27,6 +27,5 @@ public class Error {
         error2.printInfo();
         Error error3 = new Error(true, 404, "Not found");
         error3.printInfo();
-
     }
 }
