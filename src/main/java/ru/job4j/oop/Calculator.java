@@ -24,12 +24,17 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        sum(5);
-        minus(5);
+        int rsl1 = sum(5);
+        System.out.println(rsl1);
+        int rsl2 = minus(5);
+        System.out.println(rsl2);
         Calculator calculator = new Calculator();
-        calculator.multiply(5);
-        calculator.divide(5);
-        calculator.sumAllOperation(5);
+        int rsl3 = calculator.multiply(5);
+        System.out.println(rsl3);
+        int rsl4 = calculator.divide(5);
+        System.out.println(rsl4);
+        int rsl5 = calculator.sumAllOperation(5);
+        System.out.println(rsl5);
     }
 
 }
