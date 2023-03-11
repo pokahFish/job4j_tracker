@@ -32,4 +32,12 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
+    public void when123to456then4p24() {
+        double expected = 4.24;
+        Point first = new Point(1, 2, 3);
+        Point second = new Point(4, 5, 6);
+        double out = first.distance(second);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
